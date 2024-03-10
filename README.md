@@ -1,2 +1,4 @@
 # Bank
 Implement a simulation of a bank's functionality in C++, as a project in "Object-Oriented Programming" course.
+
+The task is to implement a simulation of customer service in a bank using C++. The simulation involves a Bank class with a customer priority system and five cashiers. The Bank class handles customer entry, service, and exit, as well as opening and closing cashiers based on certain conditions. The Cashier class manages its state (open or closed) and serves customers, keeping track of the number served. Parameters such as the number of customers (N), simulation repetitions (M), waiting threshold (K), and cashier malfunction threshold (L) are provided as command line inputs. The main function creates a bank, simulates customer entry and service, repeats the simulation, and then serves any remaining customers.
